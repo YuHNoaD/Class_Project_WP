@@ -149,7 +149,7 @@
             this.Controls.Add(this.imaginaryLabel);
             this.Controls.Add(this.realLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "ComplexNumbers";
             this.ResumeLayout(false);
             this.PerformLayout();
 
