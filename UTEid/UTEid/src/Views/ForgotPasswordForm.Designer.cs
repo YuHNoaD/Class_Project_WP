@@ -44,16 +44,15 @@ namespace UTEid.src.Views
             newPasswordLabel = new Label();
             otpLabel = new Label();
             emailLabel = new Label();
-            instructionLabel = new Label();
             forgotPasswordLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)logoBox).BeginInit();
             glassPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)toggleConfirmPasswordButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)toggleNewPasswordButton).BeginInit();
             SuspendLayout();
-            //
+            // 
             // logoBox
-            //
+            // 
             logoBox.BackColor = Color.Transparent;
             logoBox.BackgroundImage = Properties.Resources.LogoUTE;
             logoBox.BackgroundImageLayout = ImageLayout.Stretch;
@@ -62,9 +61,9 @@ namespace UTEid.src.Views
             logoBox.Size = new Size(90, 80);
             logoBox.TabIndex = 0;
             logoBox.TabStop = false;
-            //
+            // 
             // glassPanel
-            //
+            // 
             glassPanel.Anchor = AnchorStyles.None;
             glassPanel.BackColor = Color.FromArgb(210, 245, 245, 245);
             glassPanel.BorderStyle = BorderStyle.FixedSingle;
@@ -82,210 +81,197 @@ namespace UTEid.src.Views
             glassPanel.Controls.Add(newPasswordLabel);
             glassPanel.Controls.Add(otpLabel);
             glassPanel.Controls.Add(emailLabel);
-            glassPanel.Controls.Add(instructionLabel);
             glassPanel.Controls.Add(forgotPasswordLabel);
-            glassPanel.Location = new Point(150, 20);
+            glassPanel.Location = new Point(200, 30);
             glassPanel.Name = "glassPanel";
-            glassPanel.Size = new Size(500, 410);
+            glassPanel.Size = new Size(400, 385);
             glassPanel.TabIndex = 1;
             glassPanel.Paint += GlassPanel_Paint;
-            //
-            // forgotPasswordLabel
-            //
-            forgotPasswordLabel.AutoSize = true;
-            forgotPasswordLabel.BackColor = Color.Transparent;
-            forgotPasswordLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
-            forgotPasswordLabel.ForeColor = Color.FromArgb(0, 51, 102);
-            forgotPasswordLabel.Location = new Point(95, 10);
-            forgotPasswordLabel.Name = "forgotPasswordLabel";
-            forgotPasswordLabel.Size = new Size(310, 31);
-            forgotPasswordLabel.TabIndex = 0;
-            forgotPasswordLabel.Text = "FORGOT PASSWORD";
-            //
-            // instructionLabel
-            //
-            instructionLabel.AutoSize = true;
-            instructionLabel.BackColor = Color.Transparent;
-            instructionLabel.Font = new Font("Segoe UI", 9F);
-            instructionLabel.ForeColor = Color.Gray;
-            instructionLabel.Location = new Point(50, 45);
-            instructionLabel.Name = "instructionLabel";
-            instructionLabel.Size = new Size(400, 20);
-            instructionLabel.TabIndex = 1;
-            instructionLabel.Text = "Enter your registered email to receive an OTP code.";
-            //
-            // emailLabel
-            //
-            emailLabel.AutoSize = true;
-            emailLabel.BackColor = Color.Transparent;
-            emailLabel.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            emailLabel.ForeColor = Color.FromArgb(0, 51, 102);
-            emailLabel.Location = new Point(50, 75);
-            emailLabel.Name = "emailLabel";
-            emailLabel.Size = new Size(61, 23);
-            emailLabel.TabIndex = 2;
-            emailLabel.Text = "EMAIL";
-            //
-            // emailTextBox
-            //
-            emailTextBox.Font = new Font("Segoe UI", 12F);
-            emailTextBox.Location = new Point(50, 100);
-            emailTextBox.Name = "emailTextBox";
-            emailTextBox.Size = new Size(300, 34);
-            emailTextBox.TabIndex = 1;
-            //
-            // sendOtpButton
-            //
-            sendOtpButton.BackColor = Color.FromArgb(0, 120, 215);
-            sendOtpButton.Cursor = Cursors.Hand;
-            sendOtpButton.FlatAppearance.BorderSize = 0;
-            sendOtpButton.FlatStyle = FlatStyle.Flat;
-            sendOtpButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            sendOtpButton.ForeColor = Color.White;
-            sendOtpButton.Location = new Point(365, 100);
-            sendOtpButton.Name = "sendOtpButton";
-            sendOtpButton.Size = new Size(85, 34);
-            sendOtpButton.TabIndex = 2;
-            sendOtpButton.Text = "SEND OTP";
-            sendOtpButton.UseVisualStyleBackColor = false;
-            sendOtpButton.Click += SendOtpButton_Click;
-            //
-            // otpLabel
-            //
-            otpLabel.AutoSize = true;
-            otpLabel.BackColor = Color.Transparent;
-            otpLabel.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            otpLabel.ForeColor = Color.FromArgb(0, 51, 102);
-            otpLabel.Location = new Point(50, 145);
-            otpLabel.Name = "otpLabel";
-            otpLabel.Size = new Size(101, 23);
-            otpLabel.TabIndex = 5;
-            otpLabel.Text = "OTP CODE";
-            //
-            // otpTextBox
-            //
-            otpTextBox.Font = new Font("Segoe UI", 12F);
-            otpTextBox.Location = new Point(50, 170);
-            otpTextBox.Name = "otpTextBox";
-            otpTextBox.Size = new Size(300, 34);
-            otpTextBox.TabIndex = 3;
-            //
-            // verifyOtpButton
-            //
-            verifyOtpButton.BackColor = Color.FromArgb(0, 120, 215);
-            verifyOtpButton.Cursor = Cursors.Hand;
-            verifyOtpButton.FlatAppearance.BorderSize = 0;
-            verifyOtpButton.FlatStyle = FlatStyle.Flat;
-            verifyOtpButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            verifyOtpButton.ForeColor = Color.White;
-            verifyOtpButton.Location = new Point(365, 170);
-            verifyOtpButton.Name = "verifyOtpButton";
-            verifyOtpButton.Size = new Size(85, 34);
-            verifyOtpButton.TabIndex = 4;
-            verifyOtpButton.Text = "VERIFY";
-            verifyOtpButton.UseVisualStyleBackColor = false;
-            verifyOtpButton.Click += VerifyOtpButton_Click;
-            //
-            // newPasswordLabel
-            //
-            newPasswordLabel.AutoSize = true;
-            newPasswordLabel.BackColor = Color.Transparent;
-            newPasswordLabel.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            newPasswordLabel.ForeColor = Color.FromArgb(0, 51, 102);
-            newPasswordLabel.Location = new Point(50, 215);
-            newPasswordLabel.Name = "newPasswordLabel";
-            newPasswordLabel.Size = new Size(149, 23);
-            newPasswordLabel.TabIndex = 7;
-            newPasswordLabel.Text = "NEW PASSWORD";
-            //
-            // newPasswordTextBox
-            //
-            newPasswordTextBox.Font = new Font("Segoe UI", 12F);
-            newPasswordTextBox.Location = new Point(50, 240);
-            newPasswordTextBox.Name = "newPasswordTextBox";
-            newPasswordTextBox.Size = new Size(300, 34);
-            newPasswordTextBox.TabIndex = 5;
-            newPasswordTextBox.UseSystemPasswordChar = true;
-            //
+            // 
+            // backToLoginLink
+            // 
+            backToLoginLink.AutoSize = true;
+            backToLoginLink.BackColor = Color.Transparent;
+            backToLoginLink.Font = new Font("Segoe UI", 9F, FontStyle.Italic);
+            backToLoginLink.LinkColor = Color.FromArgb(0, 51, 102);
+            backToLoginLink.Location = new Point(100, 355);
+            backToLoginLink.Name = "backToLoginLink";
+            backToLoginLink.Size = new Size(187, 20);
+            backToLoginLink.TabIndex = 13;
+            backToLoginLink.TabStop = true;
+            backToLoginLink.Text = "Remembered? Back to login";
+            backToLoginLink.LinkClicked += BackToLoginLink_LinkClicked;
+            // 
+            // toggleConfirmPasswordButton
+            // 
+            toggleConfirmPasswordButton.BackColor = Color.White;
+            toggleConfirmPasswordButton.BackgroundImage = Properties.Resources.eye;
+            toggleConfirmPasswordButton.BackgroundImageLayout = ImageLayout.Stretch;
+            toggleConfirmPasswordButton.Cursor = Cursors.Hand;
+            toggleConfirmPasswordButton.Location = new Point(315, 255);
+            toggleConfirmPasswordButton.Name = "toggleConfirmPasswordButton";
+            toggleConfirmPasswordButton.Size = new Size(25, 23);
+            toggleConfirmPasswordButton.TabIndex = 11;
+            toggleConfirmPasswordButton.TabStop = false;
+            toggleConfirmPasswordButton.Click += ToggleConfirmPasswordButton_Click;
+            // 
             // toggleNewPasswordButton
-            //
+            // 
             toggleNewPasswordButton.BackColor = Color.White;
             toggleNewPasswordButton.BackgroundImage = Properties.Resources.eye;
             toggleNewPasswordButton.BackgroundImageLayout = ImageLayout.Stretch;
             toggleNewPasswordButton.Cursor = Cursors.Hand;
-            toggleNewPasswordButton.Location = new Point(315, 245);
+            toggleNewPasswordButton.Location = new Point(315, 185);
             toggleNewPasswordButton.Name = "toggleNewPasswordButton";
             toggleNewPasswordButton.Size = new Size(25, 23);
             toggleNewPasswordButton.TabIndex = 8;
             toggleNewPasswordButton.TabStop = false;
             toggleNewPasswordButton.Click += ToggleNewPasswordButton_Click;
-            //
-            // confirmPasswordLabel
-            //
-            confirmPasswordLabel.AutoSize = true;
-            confirmPasswordLabel.BackColor = Color.Transparent;
-            confirmPasswordLabel.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            confirmPasswordLabel.ForeColor = Color.FromArgb(0, 51, 102);
-            confirmPasswordLabel.Location = new Point(50, 285);
-            confirmPasswordLabel.Name = "confirmPasswordLabel";
-            confirmPasswordLabel.Size = new Size(187, 23);
-            confirmPasswordLabel.TabIndex = 9;
-            confirmPasswordLabel.Text = "CONFIRM PASSWORD";
-            //
-            // confirmNewPasswordTextBox
-            //
-            confirmNewPasswordTextBox.Font = new Font("Segoe UI", 12F);
-            confirmNewPasswordTextBox.Location = new Point(50, 310);
-            confirmNewPasswordTextBox.Name = "confirmNewPasswordTextBox";
-            confirmNewPasswordTextBox.Size = new Size(300, 34);
-            confirmNewPasswordTextBox.TabIndex = 6;
-            confirmNewPasswordTextBox.UseSystemPasswordChar = true;
-            //
-            // toggleConfirmPasswordButton
-            //
-            toggleConfirmPasswordButton.BackColor = Color.White;
-            toggleConfirmPasswordButton.BackgroundImage = Properties.Resources.eye;
-            toggleConfirmPasswordButton.BackgroundImageLayout = ImageLayout.Stretch;
-            toggleConfirmPasswordButton.Cursor = Cursors.Hand;
-            toggleConfirmPasswordButton.Location = new Point(315, 315);
-            toggleConfirmPasswordButton.Name = "toggleConfirmPasswordButton";
-            toggleConfirmPasswordButton.Size = new Size(25, 23);
-            toggleConfirmPasswordButton.TabIndex = 10;
-            toggleConfirmPasswordButton.TabStop = false;
-            toggleConfirmPasswordButton.Click += ToggleConfirmPasswordButton_Click;
-            //
+            // 
             // resetPasswordButton
-            //
+            // 
             resetPasswordButton.BackColor = Color.FromArgb(0, 120, 215);
             resetPasswordButton.Cursor = Cursors.Hand;
             resetPasswordButton.FlatAppearance.BorderSize = 0;
             resetPasswordButton.FlatStyle = FlatStyle.Flat;
             resetPasswordButton.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             resetPasswordButton.ForeColor = Color.White;
-            resetPasswordButton.Location = new Point(50, 355);
+            resetPasswordButton.Location = new Point(50, 300);
             resetPasswordButton.Name = "resetPasswordButton";
-            resetPasswordButton.Size = new Size(300, 40);
-            resetPasswordButton.TabIndex = 7;
+            resetPasswordButton.Size = new Size(300, 45);
+            resetPasswordButton.TabIndex = 12;
             resetPasswordButton.Text = "RESET PASSWORD";
             resetPasswordButton.UseVisualStyleBackColor = false;
             resetPasswordButton.Click += ResetPasswordButton_Click;
-            //
-            // backToLoginLink
-            //
-            backToLoginLink.AutoSize = true;
-            backToLoginLink.BackColor = Color.Transparent;
-            backToLoginLink.Font = new Font("Segoe UI", 9F, FontStyle.Italic);
-            backToLoginLink.LinkColor = Color.FromArgb(0, 51, 102);
-            backToLoginLink.Location = new Point(200, 385);
-            backToLoginLink.Name = "backToLoginLink";
-            backToLoginLink.Size = new Size(100, 20);
-            backToLoginLink.TabIndex = 9;
-            backToLoginLink.TabStop = true;
-            backToLoginLink.Text = "Back to Login";
-            backToLoginLink.LinkClicked += BackToLoginLink_LinkClicked;
-            //
+            // 
+            // confirmNewPasswordTextBox
+            // 
+            confirmNewPasswordTextBox.Font = new Font("Segoe UI", 12F);
+            confirmNewPasswordTextBox.Location = new Point(50, 250);
+            confirmNewPasswordTextBox.Name = "confirmNewPasswordTextBox";
+            confirmNewPasswordTextBox.Size = new Size(300, 34);
+            confirmNewPasswordTextBox.TabIndex = 10;
+            confirmNewPasswordTextBox.UseSystemPasswordChar = true;
+            // 
+            // newPasswordTextBox
+            // 
+            newPasswordTextBox.Font = new Font("Segoe UI", 12F);
+            newPasswordTextBox.Location = new Point(50, 180);
+            newPasswordTextBox.Name = "newPasswordTextBox";
+            newPasswordTextBox.Size = new Size(300, 34);
+            newPasswordTextBox.TabIndex = 7;
+            newPasswordTextBox.UseSystemPasswordChar = true;
+            // 
+            // otpTextBox
+            // 
+            otpTextBox.Font = new Font("Segoe UI", 12F);
+            otpTextBox.Location = new Point(50, 118);
+            otpTextBox.Name = "otpTextBox";
+            otpTextBox.Size = new Size(215, 34);
+            otpTextBox.TabIndex = 4;
+            // 
+            // emailTextBox
+            // 
+            emailTextBox.Font = new Font("Segoe UI", 12F);
+            emailTextBox.Location = new Point(50, 57);
+            emailTextBox.Name = "emailTextBox";
+            emailTextBox.Size = new Size(215, 34);
+            emailTextBox.TabIndex = 1;
+            // 
+            // verifyOtpButton
+            // 
+            verifyOtpButton.BackColor = Color.FromArgb(0, 120, 215);
+            verifyOtpButton.Cursor = Cursors.Hand;
+            verifyOtpButton.FlatAppearance.BorderSize = 0;
+            verifyOtpButton.FlatStyle = FlatStyle.Flat;
+            verifyOtpButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            verifyOtpButton.ForeColor = Color.White;
+            verifyOtpButton.Location = new Point(271, 118);
+            verifyOtpButton.Name = "verifyOtpButton";
+            verifyOtpButton.Size = new Size(85, 34);
+            verifyOtpButton.TabIndex = 5;
+            verifyOtpButton.Text = "VERIFY";
+            verifyOtpButton.UseVisualStyleBackColor = false;
+            verifyOtpButton.Click += VerifyOtpButton_Click;
+            // 
+            // sendOtpButton
+            // 
+            sendOtpButton.BackColor = Color.FromArgb(0, 120, 215);
+            sendOtpButton.Cursor = Cursors.Hand;
+            sendOtpButton.FlatAppearance.BorderSize = 0;
+            sendOtpButton.FlatStyle = FlatStyle.Flat;
+            sendOtpButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            sendOtpButton.ForeColor = Color.White;
+            sendOtpButton.Location = new Point(271, 60);
+            sendOtpButton.Name = "sendOtpButton";
+            sendOtpButton.Size = new Size(85, 34);
+            sendOtpButton.TabIndex = 2;
+            sendOtpButton.Text = "SEND OTP";
+            sendOtpButton.UseVisualStyleBackColor = false;
+            sendOtpButton.Click += SendOtpButton_Click;
+            // 
+            // confirmPasswordLabel
+            // 
+            confirmPasswordLabel.AutoSize = true;
+            confirmPasswordLabel.BackColor = Color.Transparent;
+            confirmPasswordLabel.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            confirmPasswordLabel.ForeColor = Color.FromArgb(0, 51, 102);
+            confirmPasswordLabel.Location = new Point(50, 224);
+            confirmPasswordLabel.Name = "confirmPasswordLabel";
+            confirmPasswordLabel.Size = new Size(188, 23);
+            confirmPasswordLabel.TabIndex = 9;
+            confirmPasswordLabel.Text = "CONFIRM PASSWORD";
+            // 
+            // newPasswordLabel
+            // 
+            newPasswordLabel.AutoSize = true;
+            newPasswordLabel.BackColor = Color.Transparent;
+            newPasswordLabel.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            newPasswordLabel.ForeColor = Color.FromArgb(0, 51, 102);
+            newPasswordLabel.Location = new Point(50, 155);
+            newPasswordLabel.Name = "newPasswordLabel";
+            newPasswordLabel.Size = new Size(149, 23);
+            newPasswordLabel.TabIndex = 6;
+            newPasswordLabel.Text = "NEW PASSWORD";
+            // 
+            // otpLabel
+            // 
+            otpLabel.AutoSize = true;
+            otpLabel.BackColor = Color.Transparent;
+            otpLabel.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            otpLabel.ForeColor = Color.FromArgb(0, 51, 102);
+            otpLabel.Location = new Point(50, 91);
+            otpLabel.Name = "otpLabel";
+            otpLabel.Size = new Size(93, 23);
+            otpLabel.TabIndex = 3;
+            otpLabel.Text = "OTP CODE";
+            // 
+            // emailLabel
+            // 
+            emailLabel.AutoSize = true;
+            emailLabel.BackColor = Color.Transparent;
+            emailLabel.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            emailLabel.ForeColor = Color.FromArgb(0, 51, 102);
+            emailLabel.Location = new Point(50, 32);
+            emailLabel.Name = "emailLabel";
+            emailLabel.Size = new Size(61, 23);
+            emailLabel.TabIndex = 0;
+            emailLabel.Text = "EMAIL";
+            // 
+            // forgotPasswordLabel
+            // 
+            forgotPasswordLabel.AutoSize = true;
+            forgotPasswordLabel.BackColor = Color.Transparent;
+            forgotPasswordLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
+            forgotPasswordLabel.ForeColor = Color.FromArgb(0, 51, 102);
+            forgotPasswordLabel.Location = new Point(100, 0);
+            forgotPasswordLabel.Name = "forgotPasswordLabel";
+            forgotPasswordLabel.Size = new Size(236, 31);
+            forgotPasswordLabel.TabIndex = 0;
+            forgotPasswordLabel.Text = "FORGOT PASSWORD";
+            // 
             // ForgotPasswordForm
-            //
+            // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.BackgroundLogin;
@@ -311,7 +297,6 @@ namespace UTEid.src.Views
         private PictureBox logoBox;
         private Panel glassPanel;
         private Label forgotPasswordLabel;
-        private Label instructionLabel;
         private Label emailLabel;
         private TextBox emailTextBox;
         private Button sendOtpButton;

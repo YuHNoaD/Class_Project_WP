@@ -210,5 +210,10 @@ namespace UTEid.src.Views
         // ==============================================================
         private void ForgotPasswordForm_Load(object sender, EventArgs e) { }
         private void GlassPanel_Paint(object sender, PaintEventArgs e) { }
+
+        private void instructionLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
