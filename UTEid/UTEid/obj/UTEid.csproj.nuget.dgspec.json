@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Năm 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\UTEid.csproj": {}
+    "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj": {}
   },
   "projects": {
-    "D:\\Năm 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\UTEid.csproj": {
+    "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Năm 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\UTEid.csproj",
+        "projectUniqueName": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
         "projectName": "UTEid",
-        "projectPath": "D:\\Năm 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\UTEid.csproj",
-        "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
-        "outputPath": "D:\\Năm 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\obj\\",
+        "projectPath": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
+        "packagesPath": "C:\\Users\\dhuy8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dhuy8\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,11 +26,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-windows": {
-            "framework": "net10.0-windows7.0",
+          "net10.0-windows7.0": {
             "targetAlias": "net10.0-windows",
             "projectReferences": {}
           }
@@ -48,8 +48,7 @@
         "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
-        "net10.0-windows": {
-          "framework": "net10.0-windows7.0",
+        "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "dependencies": {
             "BCrypt.Net-Next": {

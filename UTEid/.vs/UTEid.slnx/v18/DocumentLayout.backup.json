@@ -1,58 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\",
+  "WorkspaceRootPath": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|d:\\n\u0103m 2\\window programming\\week1\\loginform\\uteid\\uteid\\forgotpasswordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\forgotpasswordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|d:\\n\u0103m 2\\window programming\\week1\\loginform\\uteid\\uteid\\forgotpasswordform.designer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\forgotpasswordform.designer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|d:\\n\u0103m 2\\window programming\\week1\\loginform\\uteid\\uteid\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\uteid\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|d:\\n\u0103m 2\\window programming\\week1\\loginform\\uteid\\uteid\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|d:\\n\u0103m 2\\window programming\\week1\\loginform\\uteid\\uteid\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\uteid\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|d:\\n\u0103m 2\\window programming\\week1\\loginform\\uteid\\uteid\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|d:\\n\u0103m 2\\window programming\\week1\\loginform\\uteid\\uteid\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|c:\\users\\dhuy8\\onedrive\\documents\\wp\\class_project_wp\\uteid\\uteid\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|d:\\n\u0103m 2\\window programming\\week1\\loginform\\uteid\\uteid\\uteid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|c:\\users\\dhuy8\\onedrive\\documents\\wp\\class_project_wp\\uteid\\uteid\\uteid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\uteid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\uteid\\forgotpasswordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\forgotpasswordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,20 +21,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UTEid",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\UTEid.csproj",
-              "RelativeDocumentMoniker": "UTEid\\UTEid.csproj",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\UTEid.csproj",
-              "RelativeToolTip": "UTEid\\UTEid.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-05T16:06:55.477Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -83,11 +41,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "UTEid.csproj",
+              "DocumentMoniker": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
+              "RelativeDocumentMoniker": "UTEid\\UTEid.csproj",
+              "ToolTip": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
+              "RelativeToolTip": "UTEid\\UTEid.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-05T16:06:55.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Resources.resx",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\Properties\\Resources.resx",
+              "DocumentMoniker": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "UTEid\\Properties\\Resources.resx",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\Properties\\Resources.resx",
               "RelativeToolTip": "UTEid\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2026-05-05T16:12:39.135Z",
@@ -95,128 +66,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "UTEid\\Form1.Designer.cs",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\Form1.Designer.cs",
-              "RelativeToolTip": "UTEid\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T14:17:57.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "registerForm.Designer.cs",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\registerForm.Designer.cs",
-              "RelativeDocumentMoniker": "UTEid\\registerForm.Designer.cs",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\registerForm.Designer.cs",
-              "RelativeToolTip": "UTEid\\registerForm.Designer.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAqwGQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T13:48:27.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "registerForm.cs",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\registerForm.cs",
-              "RelativeDocumentMoniker": "UTEid\\registerForm.cs",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\registerForm.cs",
-              "RelativeToolTip": "UTEid\\registerForm.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T11:32:42.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "registerForm.cs [Design]",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\registerForm.cs",
-              "RelativeDocumentMoniker": "UTEid\\registerForm.cs",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\registerForm.cs [Design]",
-              "RelativeToolTip": "UTEid\\registerForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T11:32:40.724Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "forgotPasswordForm.Designer.Designer.cs",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\forgotPasswordForm.Designer.Designer.cs",
-              "RelativeDocumentMoniker": "UTEid\\forgotPasswordForm.Designer.Designer.cs",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\forgotPasswordForm.Designer.Designer.cs*",
-              "RelativeToolTip": "UTEid\\forgotPasswordForm.Designer.Designer.cs*",
-              "ViewState": "AgIAACcBAAAAAAAAAAAcwC0BAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T11:17:37.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "forgotPasswordForm.Designer.cs",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\forgotPasswordForm.Designer.cs",
-              "RelativeDocumentMoniker": "UTEid\\forgotPasswordForm.Designer.cs",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\forgotPasswordForm.Designer.cs*",
-              "RelativeToolTip": "UTEid\\forgotPasswordForm.Designer.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAkwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T11:17:31.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "forgotPasswordForm.Designer.cs [Design]",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\forgotPasswordForm.Designer.cs",
-              "RelativeDocumentMoniker": "UTEid\\forgotPasswordForm.Designer.cs",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\forgotPasswordForm.Designer.cs [Design]*",
-              "RelativeToolTip": "UTEid\\forgotPasswordForm.Designer.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T11:17:26.013Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SQLQuery1.sql ",
+              "Title": "SQLQuery1.sql",
               "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\SQLQuery1.sql",
-              "RelativeDocumentMoniker": "SQLQuery1.sql",
-              "ToolTip": "SQLQuery1.sql ",
+              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\SQLQuery1.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-05-05T11:16:24.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\Form1.cs",
-              "RelativeDocumentMoniker": "UTEid\\Form1.cs",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\Form1.cs",
-              "RelativeToolTip": "UTEid\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T10:52:03.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\Form1.cs",
-              "RelativeDocumentMoniker": "UTEid\\Form1.cs",
-              "ToolTip": "D:\\N\u0103m 2\\Window Programming\\week1\\LoginForm\\UTEid\\UTEid\\Form1.cs [Design]",
-              "RelativeToolTip": "UTEid\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T10:51:46.181Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-05T11:16:24.072Z"
             }
           ]
         }

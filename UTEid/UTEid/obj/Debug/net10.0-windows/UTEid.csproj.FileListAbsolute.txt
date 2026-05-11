@@ -44,3 +44,30 @@ D:\Năm 2\Window Programming\week1\LoginForm\UTEid\UTEid\bin\Debug\net10.0-windo
 D:\Năm 2\Window Programming\week1\LoginForm\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.registerForm.resources
 D:\Năm 2\Window Programming\week1\LoginForm\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.forgotPasswordForm.resources
 D:\Năm 2\Window Programming\week1\LoginForm\UTEid\UTEid\bin\Debug\net10.0-windows\Properties\Resources.resx
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\Properties\Resources.resx
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\UTEid.exe
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\UTEid.deps.json
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\UTEid.runtimeconfig.json
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\UTEid.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\UTEid.pdb
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\BCrypt.Net-Next.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.csproj.AssemblyReference.cache
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.Properties.Resources.resources
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.csproj.GenerateResource.cache
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.AssemblyInfoInputs.cache
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.AssemblyInfo.cs
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.csproj.CoreCompileInputs.cache
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.sourcelink.json
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.csproj.Up2Date
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\refint\UTEid.dll
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.pdb
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\UTEid.genruntimeconfig.cache
+C:\Users\dhuy8\OneDrive\Documents\WP\Class_Project_WP\UTEid\UTEid\obj\Debug\net10.0-windows\ref\UTEid.dll
