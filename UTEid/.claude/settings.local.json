@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"Program.cs\" \"UTEid.csproj\" \"UTEid.csproj.user\" \"loginDB.mdf\" \"loginDB_log.ldf\" \"C:/Users/dhuy8/OneDrive - truongdaihocSuphamKyThuatTPHCM/Desktop/UTEid/UTEid/\")",
+      "Bash(cp -r \"Properties\" \"C:/Users/dhuy8/OneDrive - truongdaihocSuphamKyThuatTPHCM/Desktop/UTEid/UTEid/\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\dhuy8\\\\OneDrive\\\\Documents\\\\WP\\\\Class_Project_WP\\\\UTEid\" -Recurse -Depth 3)",
+      "Bash(Select-Object Mode, FullName, Length)",
+      "Bash(Format-Table -AutoSize)",
+      "PowerShell(New-Item *)",
+      "PowerShell(dotnet build *)",
+      "PowerShell(Move-Item *)",
+      "Bash(dotnet build *)"
+    ]
+  }
+}
