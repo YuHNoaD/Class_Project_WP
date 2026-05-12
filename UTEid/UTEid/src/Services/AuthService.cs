@@ -28,13 +28,15 @@ namespace UTEid.src.Services
         /// </summary>
         public bool VerifyUser(string username, string rawPassword)
         {
-            var query = "SELECT password FROM log_in WHERE username = @Username";
+            var query = "SELECT password FROM Login WHERE username = @Username";
             using var command = new SqlCommand(query, _database.GetConnection());
             command.Parameters.AddWithValue("@Username", username);
 
+            _database.OpenConnection();
             using var adapter = new SqlDataAdapter(command);
             var table = new DataTable();
             adapter.Fill(table);
+            _database.CloseConnection();
 
             if (table.Rows.Count != 1)
                 return false;
@@ -50,7 +52,7 @@ namespace UTEid.src.Services
         {
             string hashedPassword = BCrypt.Net.BCrypt.HashPassword(rawPassword);
 
-            var query = "INSERT INTO log_in (username, email, password) VALUES (@Username, @Email, @PasswordHash)";
+            var query = "INSERT INTO Login (username, email, password) VALUES (@Username, @Email, @PasswordHash)";
             using var command = new SqlCommand(query, _database.GetConnection());
             command.Parameters.AddWithValue("@Username", username);
             command.Parameters.AddWithValue("@Email", email);
@@ -66,13 +68,15 @@ namespace UTEid.src.Services
         /// </summary>
         public bool CheckUserExists(string username)
         {
-            var query = "SELECT * FROM log_in WHERE username = @Username";
+            var query = "SELECT * FROM Login WHERE username = @Username";
             using var command = new SqlCommand(query, _database.GetConnection());
             command.Parameters.AddWithValue("@Username", username);
 
+            _database.OpenConnection();
             using var adapter = new SqlDataAdapter(command);
             var table = new DataTable();
             adapter.Fill(table);
+            _database.CloseConnection();
 
             return table.Rows.Count > 0;
         }
@@ -82,13 +86,15 @@ namespace UTEid.src.Services
         /// </summary>
         public bool CheckEmailExists(string email)
         {
-            var query = "SELECT * FROM log_in WHERE email = @Email";
+            var query = "SELECT * FROM Login WHERE email = @Email";
             using var command = new SqlCommand(query, _database.GetConnection());
             command.Parameters.AddWithValue("@Email", email);
 
+            _database.OpenConnection();
             using var adapter = new SqlDataAdapter(command);
             var table = new DataTable();
             adapter.Fill(table);
+            _database.CloseConnection();
 
             return table.Rows.Count > 0;
         }
@@ -100,7 +106,7 @@ namespace UTEid.src.Services
         {
             string hashedPassword = BCrypt.Net.BCrypt.HashPassword(newRawPassword);
 
-            var query = "UPDATE log_in SET password = @PasswordHash WHERE username = @Username";
+            var query = "UPDATE Login SET password = @PasswordHash WHERE username = @Username";
             using var command = new SqlCommand(query, _database.GetConnection());
             command.Parameters.AddWithValue("@Username", username);
             command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
@@ -113,3 +119,6 @@ namespace UTEid.src.Services
         }
     }
 }
+
+
+

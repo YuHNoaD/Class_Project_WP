@@ -1,4 +1,4 @@
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
 using System.Net.Mail;
 using UTEid.src.Services;
@@ -35,14 +35,14 @@ namespace UTEid.src.Views
 
             if (string.IsNullOrEmpty(inputEmail))
             {
-                MessageBox.Show("Vui lòng nhập email!", "Cảnh báo",
+                MessageBox.Show("Vui lÃ²ng nháº­p email!", "Cáº£nh bÃ¡o",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (!IsEmailRegistered(inputEmail))
             {
-                MessageBox.Show("Email không tồn tại trong hệ thống!", "Lỗi",
+                MessageBox.Show("Email khÃ´ng tá»“n táº¡i trong há»‡ thá»‘ng!", "Lá»—i",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
@@ -55,14 +55,14 @@ namespace UTEid.src.Views
 
                 SendOtpEmail(_targetEmail, _generatedOtp);
 
-                MessageBox.Show("Mã OTP đã được gửi. Vui lòng kiểm tra hộp thư!", "Thành công",
+                MessageBox.Show("MÃ£ OTP Ä‘Ã£ Ä‘Æ°á»£c gá»­i. Vui lÃ²ng kiá»ƒm tra há»™p thÆ°!", "ThÃ nh cÃ´ng",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 SetOtpFieldsEnabled(true);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi gửi mail: " + ex.Message, "Lỗi Server",
+                MessageBox.Show("Lá»—i gá»­i mail: " + ex.Message, "Lá»—i Server",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -74,7 +74,7 @@ namespace UTEid.src.Views
 
             if (inputOtp == _generatedOtp && !string.IsNullOrEmpty(_generatedOtp))
             {
-                MessageBox.Show("Xác minh thành công!", "Thông báo",
+                MessageBox.Show("XÃ¡c minh thÃ nh cÃ´ng!", "ThÃ´ng bÃ¡o",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 SetOtpFieldsEnabled(false);
@@ -82,7 +82,7 @@ namespace UTEid.src.Views
             }
             else
             {
-                MessageBox.Show("Mã xác nhận không đúng!", "Lỗi",
+                MessageBox.Show("MÃ£ xÃ¡c nháº­n khÃ´ng Ä‘Ãºng!", "Lá»—i",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -95,20 +95,20 @@ namespace UTEid.src.Views
 
             if (string.IsNullOrEmpty(newPassword) || newPassword != confirmPassword)
             {
-                MessageBox.Show("Mật khẩu không khớp hoặc đang trống!", "Lỗi",
+                MessageBox.Show("Máº­t kháº©u khÃ´ng khá»›p hoáº·c Ä‘ang trá»‘ng!", "Lá»—i",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             if (UpdatePasswordByEmail(_targetEmail, newPassword))
             {
-                MessageBox.Show("Đổi mật khẩu thành công!", "Chúc mừng",
+                MessageBox.Show("Äá»•i máº­t kháº©u thÃ nh cÃ´ng!", "ChÃºc má»«ng",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Lỗi cập nhật mật khẩu!", "Lỗi",
+                MessageBox.Show("Lá»—i cáº­p nháº­t máº­t kháº©u!", "Lá»—i",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -155,7 +155,7 @@ namespace UTEid.src.Views
 
         private bool IsEmailRegistered(string email)
         {
-            var query = "SELECT COUNT(*) FROM log_in WHERE email = @Email";
+            var query = "SELECT COUNT(*) FROM Login WHERE email = @Email";
             using var command = new SqlCommand(query, _database.GetConnection());
             command.Parameters.AddWithValue("@Email", email);
 
@@ -170,7 +170,7 @@ namespace UTEid.src.Views
         {
             string hashedPassword = BCrypt.Net.BCrypt.HashPassword(newRawPassword);
 
-            var query = "UPDATE log_in SET password = @PasswordHash WHERE email = @Email";
+            var query = "UPDATE Login SET password = @PasswordHash WHERE email = @Email";
             using var command = new SqlCommand(query, _database.GetConnection());
             command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
             command.Parameters.AddWithValue("@Email", email);
@@ -190,8 +190,8 @@ namespace UTEid.src.Views
             var mail = new MailMessage
             {
                 From = new MailAddress(fromEmail),
-                Subject = "Mã xác nhận đổi mật khẩu - UTEid",
-                Body = $"Mã OTP của bạn là: {otpCode}. Vui lòng không chia sẻ mã này."
+                Subject = "MÃ£ xÃ¡c nháº­n Ä‘á»•i máº­t kháº©u - UTEid",
+                Body = $"MÃ£ OTP cá»§a báº¡n lÃ : {otpCode}. Vui lÃ²ng khÃ´ng chia sáº» mÃ£ nÃ y."
             };
             mail.To.Add(toEmail);
 
@@ -212,3 +212,4 @@ namespace UTEid.src.Views
         private void GlassPanel_Paint(object sender, PaintEventArgs e) { }
     }
 }
+

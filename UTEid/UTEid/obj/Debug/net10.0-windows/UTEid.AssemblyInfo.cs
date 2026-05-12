@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UTEid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+896a1036def66ac5afefac9886e39cd92b71b25e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95ddc63fb50afcbb2fac5acc629a73aee6e858c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("UTEid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UTEid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

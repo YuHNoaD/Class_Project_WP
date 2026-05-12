@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|c:\\users\\dhuy8\\onedrive\\documents\\wp\\class_project_wp\\uteid\\uteid\\uteid.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\uteid.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|c:\\users\\dhuy8\\onedrive\\documents\\wp\\class_project_wp\\uteid\\uteid\\uteid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C3EFA88A-7003-0E6B-D4E1-565C07FDF508}|UTEid\\UTEid.csproj|solutionrelative:uteid\\uteid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -39,27 +43,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UTEid",
+              "DocumentMoniker": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
+              "RelativeDocumentMoniker": "UTEid\\UTEid.csproj",
+              "ToolTip": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
+              "RelativeToolTip": "UTEid\\UTEid.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-11T17:08:53.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UTEid.csproj",
               "DocumentMoniker": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
               "RelativeDocumentMoniker": "UTEid\\UTEid.csproj",
               "ToolTip": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
               "RelativeToolTip": "UTEid\\UTEid.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-05-05T16:06:55.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "UTEid\\Properties\\Resources.resx",
               "ToolTip": "C:\\Users\\dhuy8\\OneDrive\\Documents\\WP\\Class_Project_WP\\UTEid\\UTEid\\Properties\\Resources.resx",
               "RelativeToolTip": "UTEid\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-05-05T16:12:39.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T16:12:39.135Z"
             }
           ]
         }

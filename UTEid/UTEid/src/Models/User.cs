@@ -1,7 +1,7 @@
-namespace UTEid.src.Models
+﻿namespace UTEid.src.Models
 {
     /// <summary>
-    /// Represents a user entity from the log_in table.
+    /// Represents a user entity from the Login table.
     /// </summary>
     public class User
     {
@@ -24,3 +24,4 @@ namespace UTEid.src.Models
         }
     }
 }
+
