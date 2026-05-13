@@ -179,7 +179,7 @@
             AppNameLabel.AutoSize = true;
             AppNameLabel.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AppNameLabel.ForeColor = Color.White;
-            AppNameLabel.Location = new Point(114, 12);
+            AppNameLabel.Location = new Point(104, 12);
             AppNameLabel.Name = "AppNameLabel";
             AppNameLabel.Size = new Size(102, 41);
             AppNameLabel.TabIndex = 2;
@@ -266,6 +266,7 @@
             AddStudentButton.TabIndex = 4;
             AddStudentButton.Text = "+ Thêm sinh viên";
             AddStudentButton.UseVisualStyleBackColor = false;
+            AddStudentButton.Click += AddStudentButton_Click;
             // 
             // SearchTextBox
             // 

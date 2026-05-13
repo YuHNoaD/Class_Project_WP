@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5RsdX+OVP68=",
+  "dgSpecHash": "RB4fxvBHGXo=",
   "success": true,
-  "projectFilePath": "D:\\năm 2\\HK2\\đợt 2\\WP\\lưu\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
+  "projectFilePath": "D:\\năm 2\\HK2\\đợt 2\\WP\\d2\\Class_Project_WP\\UTEid\\UTEid\\UTEid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anh Tuan\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\Anh Tuan\\.nuget\\packages\\fontawesome.sharp\\6.6.0\\fontawesome.sharp.6.6.0.nupkg.sha512",

@@ -36,5 +36,14 @@ namespace UTEid.src.Views
         {
 
         }
+
+        private void AddStudentButton_Click(object sender, EventArgs e)
+        {
+            // Tạo một bản sao (instance) của Form AddStudentForm
+            AddStudentForm fAdd = new AddStudentForm();
+
+            // Hiển thị Form dưới dạng hộp thoại (người dùng phải đóng mới quay lại Form chính được)
+            fAdd.ShowDialog();
+        }
     }
 }
